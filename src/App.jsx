@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Snowflakes />
+      {/* <Snowflakes /> */}
       {/* <Navbar /> */}
       <div className='topImageContainer'>
         <div className='topHeading'>$BADELF</div>
