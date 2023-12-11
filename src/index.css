@@ -28,6 +28,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Faith-Hope-Love", sans-serif;
+  background: rgb(64,205,67);
+  background: radial-gradient(circle, rgba(64,205,67,1) 0%, rgba(7,144,38,1) 96%);
 }
 
 h1 {
@@ -65,4 +68,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+@font-face {
+  font-family: "Faith-Hope-Love";
+  src: url("/fonts/Faith-Hope.woff") format("woff");
 }
