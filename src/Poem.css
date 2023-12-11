@@ -1,0 +1,68 @@
+.poemWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+
+}
+
+.poemContainer {
+  /* padding-left: 80px;
+  padding-right: 80px; */
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  max-width: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+.poemTitle {
+  font-size: 45px;
+  font-weight: bold;
+
+}
+
+.poemCopy {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.poemImage {
+  width: 160px;
+  height: auto;
+}
+
+.poemItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.trees {
+  display: flex;
+
+}
+
+.tree {
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+
+.poemSnowLeft {
+  transform: rotate(270deg);
+  height: 180px;
+  position: absolute;
+  top: 441px;
+  left: -362px;
+}
+
+.poemSnow {
+  height: 150px;
+  transform: rotate(90deg);
+}

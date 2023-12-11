@@ -1,32 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import elfBanner from './assets/elf-banner.png'
 import './App.css'
 import { Snowflakes } from './Snowflakes'
 import { motion, useScroll } from "framer-motion"
+import { Poem } from './Poem'
+import { Pagebreak } from './Pagebreak'
+import { Buttonlinks } from './Buttonlinks'
+import { Navbar } from './Navbar'
+import { Features } from './Features'
 
 function App() {
 
+  const variants = {
+    slide: {
+      y: [0, 10, 0],
+      transition: { duration: 2, ease: "easeInOut", repeat: Infinity }
+    }
+  }
 
   return (
     <>
-    <Snowflakes />
-      <motion.div
-       initial={{y: "-30px", scale: 0.5 }}
-       whileInView={{y: "0px", scale: 1 }}
-       transition={{ duration: 0.5, ease: "easeOut" }}>
-          <img src={elfBanner} className="logo" alt="Vite logo" />
-      </motion.div>
-      <div className="card">
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <Snowflakes />
+      <Navbar />
+      <div className='topImageContainer'>
+        <div className='topHeading'>$BADELF</div>
+        <div className='topCopy'>Need to add some copy in here to make this section look more interesting. Just a bit more text to wrap th eline.</div>
+        <Buttonlinks />
+        <motion.div
+        variants={variants}
+        animate="slide"
+        className='topImage'>
+              <img src={elfBanner} className="logo" alt="Vite logo" />
+          </motion.div>
+
+
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <Poem /> 
+      <Pagebreak />
+      <Features />
+      {/* <Pagebreak /> */}
+
+      {/* <Pagebreak /> */}
+  
+      {/* <Pagebreak /> */}
+    </> 
   )
 }
 
