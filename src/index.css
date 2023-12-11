@@ -30,7 +30,7 @@ body {
   min-height: 100vh;
   font-family: "Faith-Hope-Love", sans-serif;
   background: rgb(64,205,67);
-  background: radial-gradient(circle, rgba(64,205,67,1) 0%, rgba(7,144,38,1) 96%);
+  background: radial-gradient(circle, rgba(64,205,67,1) 0%, rgba(1,112,26,1) 96%);
   cursor: url("/images/elf-pointer.png"), auto;
 }
 
