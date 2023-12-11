@@ -36,7 +36,7 @@ function App() {
 
       </div>
       <Poem /> 
-      <Pagebreak />
+
       <Features />
       {/* <Pagebreak /> */}
 

@@ -12,7 +12,7 @@ export function Navbar() {
                 <div className="push">
                     <div>$BADELF</div>
                     <div className='navBarBtn'><FaXTwitter /></div>
-                  <div className='navBarBtn'><PiTelegramLogo /></div>
+                     <div><div className='navBarBtn'><PiTelegramLogo /></div></div>
                  </div>
              
             </div>

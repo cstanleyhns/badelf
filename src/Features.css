@@ -3,11 +3,23 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 50px;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .featuresContainer>* {
   flex: 1 1 300px;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  .featuresContainer {
+   padding-left: 0px;
+   padding-right: 0px;
+  }
 }
 
 .featImg {
@@ -52,6 +64,29 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+.featItemTitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .featItemTitle {
+    font-size: 18px;
+  }
+}
+
+.featItemCopy {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .featItemCopy {
+    font-size: 14px;
+  }
+}
+
 
 .featLink {
   font-size: 16px;

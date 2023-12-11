@@ -23,25 +23,25 @@ export function Features() {
                         <div className='featItems'>
                             <div className='featItem'>
                                 <img className='featImg' src={feat1} alt='placeholder' />
-                                <div>Liquidity locked</div>
-                                <div>LOCKED LIQUIDITY</div>
+                                <div className='featItemTitle'>Liquidity locked</div>
+                                <div className='featItemCopy'>LOCKED LIQUIDITY</div>
                             </div>
                             <div className='featItem'>
                                 <img className='featImg' src={feat2} alt='placeholder' />
-                                <div>Low tax</div>
-                                <div>2% MARKETING TAX</div>
+                                <div className='featItemTitle'>Low tax</div>
+                                <div className='featItemCopy'>2% MARKETING TAX</div>
                             </div>
                         </div>
                         <div className='featItems'>
                             <div className='featItem'>
                                 <img className='featImg'src={feat3} alt='placeholder' />
-                                <div>Community driven</div>
-                                <div>FULLY DECENTRALISED AND COMMUNITY DRIVEN</div>
+                                <div className='featItemTitle'>Community driven</div>
+                                <div className='featItemCopy'>FULLY DECENTRALISED AND COMMUNITY DRIVEN</div>
                             </div>
                             <div className='featItem'>
                                 <img className='featImg' src={feat4} alt='placeholder' />
-                                <div>Security</div>
-                                <div>OWNERSHIP RENOUNCED.</div>
+                                <div className='featItemTitle'>Security</div>
+                                <div className='featItemCopy'>OWNERSHIP RENOUNCED.</div>
                             </div>
                         </div>
                  </div>
