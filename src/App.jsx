@@ -19,6 +19,7 @@ function App() {
 
   return (
     <>
+    <div className=''>
       <Snowflakes />
       <Navbar />
       <div className='topImageContainer'>
@@ -34,6 +35,7 @@ function App() {
       </div>
       <Poem /> 
       <Features />
+      </div>
     </> 
   )
 }

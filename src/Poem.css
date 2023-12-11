@@ -64,6 +64,12 @@
   height: 400px;
 }
 
+@media only screen and (max-width: 480px) {
+  .poemImageFinal {
+    height: 250px;
+  }
+}
+
 .trees {
   display: flex;
 
