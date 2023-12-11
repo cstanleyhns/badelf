@@ -94,3 +94,8 @@
   color: #c30022;
   text-decoration: none;
 }
+
+.copyLarge {
+  font-weight: bold;
+  font-size: 24px;
+}
