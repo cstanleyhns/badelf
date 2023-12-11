@@ -3,10 +3,17 @@ import elfStanding from './assets/elf-standing.png'
 import elfSpanked from './assets/elf-spanked.png'
 import elfBlow from './assets/elf-blow.png'
 import elfSick from './assets/elf-sick.png'
-import snow from './assets/pagebreak.png'
+import { motion, useScroll } from "framer-motion"
 
 export function Poem() {
 
+    const variants = {
+        slide: {
+          scale: [1, 1.2, 1],
+          y: [0, 10, 0],
+          transition: { duration: 2, ease: "easeInOut", repeat: Infinity }
+        }
+      }
 
     return (
         <>
@@ -50,7 +57,10 @@ export function Poem() {
                     
                     </div>
                     <div className='poemItemFinal'>
-                         <img className='poemImageFinal' src={elfBlow} alt='elf' />   
+                         <motion.img 
+                                  variants={variants}
+                                  animate="slide"
+                         className='poemImageFinal' src={elfBlow} alt='elf' />   
                     </div>
                 </div>
             </div>
