@@ -27,11 +27,14 @@
 }
 
 .featItem {
-  /* display: flex;
-  flex-direction: column;
-  text-align:left; */
   min-width: 127px;
   text-align: left;
+}
+
+@media only screen and (max-width: 480px) {
+  .featItem {
+    text-align: center;
+  }
 }
 
 .featItemLeft {
@@ -63,6 +66,12 @@
   font-size: 45px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .featMainTitle {
+    font-size: 35px;
+  }
 }
 
 .featItemTitle {

@@ -30,7 +30,13 @@
 .poemTitle {
   font-size: 45px;
   font-weight: bold;
+}
 
+@media only screen and (max-width: 480px) {
+  .poemTitle {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
 }
 
 .poemCopy {
