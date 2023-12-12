@@ -11,9 +11,13 @@ export function Navbar() {
                 <div><img src={elfStanding} className="navBarImg" alt="Vite logo" /></div>
                 <div className="push">
                     <div>$BADELF</div>
-                    <div className='navBarBtn'><FaXTwitter /></div>
-                     <div><div className='navBarBtn'><PiTelegramLogo /></div></div>
-                 </div>
+                    <a href="https://x.com/BadElfFinance?t=wYZWU-QpGfM02YFoGrzU0A&s=09" target="_blank" rel="noopener noreferrer">
+                        <div className='navBarBtn'><FaXTwitter /></div>
+                    </a>
+                    <a href="https://t.me/BadElfERC20" target="_blank" rel="noopener noreferrer">
+                        <div className='navBarBtn'><PiTelegramLogo /></div>
+                    </a>
+                </div>
              
             </div>
         </> 
