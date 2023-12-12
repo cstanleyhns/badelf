@@ -10,7 +10,10 @@ export function Navbar() {
             <div className='navbarContainer'>
                 <div><img src={elfStanding} className="navBarImg" alt="Vite logo" /></div>
                 <div className="push">
-                    <div>$BADELF</div>
+                    <a  href="/" className='navBarLink'>
+                      <div className='navBarLink'>$BADELF</div>
+                    </a>
+                    
                     <a href="https://x.com/BadElfFinance?t=wYZWU-QpGfM02YFoGrzU0A&s=09" target="_blank" rel="noopener noreferrer">
                         <div className='navBarBtn'><FaXTwitter /></div>
                     </a>
