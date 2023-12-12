@@ -23,7 +23,7 @@ function App() {
       <Snowflakes />
       <Navbar />
       <div className='topImageContainer'>
-        <div className='topHeading'>$BADELF</div>
+        <div className='topHeading'>It's HERE</div>
         <div className='topCopy'>Need to add some copy in here to make this section look more interesting. Just a bit more text to wrap the line.</div>
         <Buttonlinks />
         <motion.div

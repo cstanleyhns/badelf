@@ -28,7 +28,7 @@ export function Poem() {
                   <div className='poemItem'>
                     <motion.img
                         whileInView={
-                            { scale: [1.2,1], delay: 0.5, transition: { duration: 2, ease: "easeInOut" }}
+                            { scale: [1.2,1], transition: { duration: 2, ease: "easeInOut" }}
                         }
                         className='poemImage' src={elfStanding} alt='elf' />
                     <div className='poemCopy'>In the moon's soft, silvery light,
@@ -43,14 +43,14 @@ export function Poem() {
                                         Did he put a condom on? No, don’t be silly.</div>  
                     <motion.img 
                             whileInView={
-                                { scale: [1.2,1], delay: 0.5, transition: { duration: 2, ease: "easeInOut" }}
+                                { scale: [1.2,1], transition: { duration: 2, ease: "easeInOut" }}
                             }
                             className='poemImage' src={elfSpanked} alt='elf' />
                     </div>
                     <div className='poemItem'>
                         <motion.img 
                             whileInView={
-                                { scale: [1.2,1], delay: 0.5, transition: { duration: 2, ease: "easeInOut" }}
+                                { scale: [1.2,1], transition: { duration: 2, ease: "easeInOut" }}
                             }
                             className='poemImage' src={elfSick} alt='elf' />   
                         <div className='poemCopy'>So with a throbbing head and a sense of dread,
