@@ -12,11 +12,11 @@ export function Features() {
              
                     <div className='featItemLeft'>
                         <div className='featMainTitle'>
-                            Stealth Launched on the <span className='highlight'>ERC20 Network</span>
+                            Stealth Launched on the <span className='highlight'>AVAX Network</span>
                         </div>
                         <p>Bad Elf is a community driven charity project built by experienced developers based in the UK and USA dedicated to bringing joy and warmth to underprivileged children, or children impacting by war during the festive season.</p>
                         <p>A charity wallet containing 5% of the <a className="featLink" href="/">$BADELF</a> supply will be dedicated to a charity of the communities choice.</p>
-                        <p>Launching on the ERC20 <a className="featLink" href="/">$BADELF</a> will have its LP locked and contract renounced to ensure security. Anti sniper bot measures will be in place. No team wallets.</p>
+                        <p>Launching on the AVAX network, <a className="featLink" href="/">$BADELF</a> will have its LP locked and contract renounced to ensure security. Anti sniper bot measures will be in place. No team wallets.</p>
                         <p className='copyLarge'>Total supply 1,000,000,000</p>
                         <p>Please join us on this effort to help spread a little joy on children’s faces this  Christmas!</p>
                     </div>

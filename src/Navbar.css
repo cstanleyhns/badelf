@@ -23,8 +23,8 @@
 }
 
 .navBarImg {
-    /* margin-top: -10px; */
-    width: 60px;
+    width: 42px;
+    padding-left: 10px;
 }
 
 .navBarBtn {

@@ -1,0 +1,48 @@
+.roadmapContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.roadmapMainTitle {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .roadmapMainTitle {
+    font-size: 35px;
+  }
+}
+
+
+.roadmapGrid{
+  display: flex;
+  gap: 37px;
+  /* width: 400px; */
+  /* height: 457px; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.roadmapGridBox{
+  background-color:#c30022;
+  flex-basis: 20%;
+  min-width: 310px;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.roadmapGridBoxTitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.roadmapGridBoxCopy {
+
+  margin-bottom: 5px;
+}

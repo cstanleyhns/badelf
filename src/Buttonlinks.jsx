@@ -9,15 +9,15 @@ export function Buttonlinks() {
             <div className='buttonContainer'>
                 <div className='buttonItem'>
                     <a href="https://x.com/BadElfFinance?t=wYZWU-QpGfM02YFoGrzU0A&s=09" target="_blank" rel="noopener noreferrer">
-                        <button className='button'><FaXTwitter /></button>
+                        <div className='buttonBtn'><FaXTwitter /></div>
                     </a>
                 </div>
                 <div className='buttonItem'>
-                    <a href="https://t.me/BadElfERC20" target="_blank" rel="noopener noreferrer">
-                        <button className='button'><PiTelegramLogo /></button>
+                    <a href="https://t.me/BadElfAVAX" target="_blank" rel="noopener noreferrer">
+                        <div className='buttonBtn'><PiTelegramLogo /></div>
                     </a>
                 </div>
-                </div>
+            </div>
 
         </>
     )   

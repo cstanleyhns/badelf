@@ -7,6 +7,7 @@ import { Poem } from './Poem'
 import { Buttonlinks } from './Buttonlinks'
 import { Navbar } from './Navbar'
 import { Features } from './Features'
+import { Roadmap } from './Roadmap'
 
 function App() {
 
@@ -23,18 +24,20 @@ function App() {
       <Snowflakes />
       <Navbar />
       <div className='topImageContainer'>
-        <div className='topHeading'>It's HERE</div>
-        <div className='topCopy'>Need to add some copy in here to make this section look more interesting. Just a bit more text to wrap the line.</div>
-        <Buttonlinks />
-        <motion.div
+      <motion.div
         variants={variants}
         animate="slide"
         className='topImage'>
               <img src={elfBanner} className="logo" alt="Vite logo" />
           </motion.div>
+        {/* <div className='topHeading'>It's HERE</div> */}
+        <div className='topCopy'>Need to add some copy in here to make this section look more interesting. Just a bit more text to wrap the line.</div>
+        <Buttonlinks />
+      
       </div>
       <Poem /> 
       <Features />
+      <Roadmap />
       </div>
     </> 
   )
