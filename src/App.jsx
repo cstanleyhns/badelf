@@ -31,7 +31,7 @@ function App() {
               <img src={elfBanner} className="logo" alt="Vite logo" />
           </motion.div>
         {/* <div className='topHeading'>It's HERE</div> */}
-        <div className='topCopy'>Need to add some copy in here to make this section look more interesting. Just a bit more text to wrap the line.</div>
+        <div className='topCopy'>A Christmas charity meme coin for the kids n that. Hopefully it sends…</div>
         <Buttonlinks />
       
       </div>

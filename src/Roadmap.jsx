@@ -11,7 +11,7 @@ export function Roadmap() {
 
                 <div className="roadmapGrid">
                     <div className="roadmapGridBox">
-                    <img src={head} className="navBarImg" alt="elf head" />
+                        <img src={head} className="roadmapImage" alt="elf head" />
                         <div className='roadmapGridBoxTitle'>Step 1</div>
                         <div>
                             <div className='roadmapGridBoxCopy'>Get fucked up</div>
@@ -22,7 +22,7 @@ export function Roadmap() {
                         </div>
                     </div>
                     <div className="roadmapGridBox">
-                    <img src={head} className="navBarImg" alt="elf head" />
+                    <img src={head} className="roadmapImage" alt="elf head" />
                         <div className='roadmapGridBoxTitle'>Step 2</div>
                         <div>
                             <div className='roadmapGridBoxCopy'>Fuck bots up</div>
@@ -32,7 +32,7 @@ export function Roadmap() {
                         </div>
                     </div>
                     <div className="roadmapGridBox">
-                    <img src={head} className="navBarImg" alt="elf head" />
+                    <img src={head} className="roadmapImage" alt="elf head" />
                         <div className='roadmapGridBoxTitle'>Step 3</div>
                         <div>
                             <div className='roadmapGridBoxCopy'>Sober up</div>
@@ -42,7 +42,7 @@ export function Roadmap() {
                         </div>
                     </div>
                     <div className="roadmapGridBox">
-                    <img src={head} className="navBarImg" alt="elf head" />
+                    <img src={head} className="roadmapImage" alt="elf head" />
                         <div className='roadmapGridBoxTitle'>Step 4</div>
                         <div>
                             <div className='roadmapGridBoxCopy'>Build up to Christmas shilling favourite children’s charity bag</div>
